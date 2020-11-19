@@ -29,6 +29,7 @@
         'security/ir.model.access.csv',
         'views/category.xml',
         'views/book_head.xml',
+        'views/author.xml',
         'views/views.xml',
     ],
     # only loaded in demonstration mode

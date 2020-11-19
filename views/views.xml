@@ -63,5 +63,9 @@
                   name="Đầu Sách"
                   action="book_head_action"
                   parent="library_root_menu" sequence="10"/>
+    <menuitem id="library_author_menu"
+              name="Tác giả"
+              action="author_action"
+              parent="library_root_menu" sequence="10"/>
   </data>
 </odoo>

@@ -9,5 +9,8 @@ class BookHead(models.Model):
     book_head_name = fields.Char(string='Tên', required=True)
     book_head_description = fields.Text(string='Mô tả')
     category_display = fields.Many2many('library_management.category',
-                                     index=True,
-                                     string='Tên dau Sách')
+                                        index=True,
+                                        string='Tên dau Sách')
+    author_display = fields.Many2many('library_management.author',
+                                      index=True,
+                                      string='Tác giả')
